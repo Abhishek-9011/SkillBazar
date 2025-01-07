@@ -1,0 +1,54 @@
+/* Layout for the entire page */
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.home-page {
+  color: #000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Make the page take full height of the viewport */
+  margin: 0; /* Reset default margin */
+}
+
+/* Navbar styling */
+.navbar {
+  height: 60px; /* Adjust navbar height */
+  width: 100%;/* Example background color */
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px; /* Add padding for better spacing */
+}
+
+/* Hero Section styling */
+.hero {
+  color: #000;
+  flex: 1; /* This ensures that the hero section takes up the remaining space */
+  display: flex;
+  justify-content: center;
+  align-items: center;/* Example background color */
+}
+
+/* Footer styling */
+.footer {
+  height: 60px; /* Adjust footer height */
+  width: 100vw;
+/* Example background color */
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 20px; /* Add padding for better spacing */
+  position: relative; /* Ensure footer sticks to the bottom */
+}
+
+/* Optional: Adjust typography and font sizes */
+body {
+  font-family: Arial, sans-serif;
+}
