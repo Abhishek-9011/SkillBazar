@@ -51,14 +51,12 @@ adminRouter.post("/signin", async function (req, res) {
     if (!response) {
       return res.status(404).json({ message: "User not found" });
     }
-    // Compare the hashed password
     const validatePassword = await bcrypt.compare(password, response.password);
 
     if (!validatePassword) {
       return res.status(403).json({ message: "Incorrect password" });
     }
 
-    // Create JWT token
     const token = jwt.sign(
       { id: response._id.toString(),
         role: "admin"

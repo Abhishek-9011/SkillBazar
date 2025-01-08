@@ -11,20 +11,21 @@ body{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh; /* Make the page take full height of the viewport */
-  margin: 0; /* Reset default margin */
+  height: 100vh;
+  margin: 0; 
 }
 
-/* Navbar styling */
+/* 
 .navbar {
-  height: 60px; /* Adjust navbar height */
-  width: 100%;/* Example background color */
+  height: 60px; 
+  width: 100%;
   color: black;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 20px; /* Add padding for better spacing */
-}
+  padding: 0 20px; 
+} */
+
 
 /* Hero Section styling */
 .hero {
@@ -33,19 +34,6 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;/* Example background color */
-}
-
-/* Footer styling */
-.footer {
-  height: 60px; /* Adjust footer height */
-  width: 100vw;
-/* Example background color */
-  color: #fff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 0 20px; /* Add padding for better spacing */
-  position: relative; /* Ensure footer sticks to the bottom */
 }
 
 /* Optional: Adjust typography and font sizes */

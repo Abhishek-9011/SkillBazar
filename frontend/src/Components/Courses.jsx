@@ -34,6 +34,7 @@ function CourseBlock({ title, description, price, imageUrl }) {
             <p>Price: ${price}</p>
             <br />
             <button>View Course</button>
+            <button style={{marginTop: '10px'}}>Purchase Course</button>
         </div>
     );
 }

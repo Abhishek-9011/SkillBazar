@@ -30,7 +30,7 @@ app.use("/course", courseRouter);
 // }
 
 async function main() {
-  await mongoose.connect("mongodb+srv://abhishek774901:Jq3k8nyWi9zfxtS9@cluster0.xt6sa.mongodb.net/courseSellig-app");
+  await mongoose.connect(process.env.MONGO_DB_URL);
   app.listen(3000);
 }
 main();

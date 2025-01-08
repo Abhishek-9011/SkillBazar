@@ -9,10 +9,12 @@ import HomePage from "./Components/HomePage";
 import Courses from "./Components/Courses";
 import User from "./Components/User";
 import Admin from "./Components/Admin";
+import Navbar from "./Components/Navbar";
 
 function App() {
   return (
     <Router>
+      <Navbar></Navbar>
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/login" element={<Login />} />
@@ -20,7 +22,6 @@ function App() {
         <Route path="/course" element={<Courses />} />
         <Route path="/user-dashboard" element={<User />} />
         <Route path="/admin-dashboard" element={<Admin />} />
-
       </Routes>
     </Router>
   );

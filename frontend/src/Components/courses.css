@@ -51,7 +51,7 @@
   }
   /* Style for the course button */
 .courseBox button {
-    background-color: #4CAF50; /* Green background */
+    background-color: #303841; /* Green background */
     color: white; /* White text */
     padding: 10px 20px; /* Padding for the button */
     font-size: 16px; /* Font size */
@@ -62,7 +62,7 @@
   }
   
   .courseBox button:hover {
-    background-color: #45a049; /* Slightly darker green when hovered */
+    background-color: black; /* Slightly darker green when hovered */
     transform: translateY(-3px); /* Slight lift effect */
   }
   

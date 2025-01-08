@@ -1,14 +1,17 @@
 /* Navbar Layout */
 .navbar {
+  position: relative;
   display: flex;
   height: 60px;
+  width: 100%;
   justify-content: space-between;
   margin-top: 10px;
+  background-color: transparent;
 }
 
 /* Logo Styling */
 .logo {
-  margin-left: 40px;
+  /* margin-left: 40px;  */
   height: 55px;
   border-radius: 5px;
 }
@@ -17,7 +20,7 @@
 .buttons {
   display: flex;
   gap: 40px;
-  margin-right: 40px;
+  /* margin-right: 40px; */
 }
 
 /* General Button Styling */
@@ -61,5 +64,7 @@ button {
 /* Focus Effect for Accessibility */
 button:focus {
   outline: none;
-  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+.userlogo{
+  height: 55px;
 }

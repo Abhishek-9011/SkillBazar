@@ -8,9 +8,7 @@ function HomePage() {
   return (
     <div className='homepageContainer'>
     <div className="home-page">
-      <Navbar className="navbar" />
       <Hero className="hero" />
-      {/* <Footer className="footer" /> */}
     </div>
     </div>
   );
