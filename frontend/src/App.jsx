@@ -10,6 +10,8 @@ import Courses from "./Components/Courses";
 import User from "./Components/User";
 import Admin from "./Components/Admin";
 import Navbar from "./Components/Navbar";
+import AdminCourses from "./Components/AdminCourses";
+import CreateCourse from "./Components/CreateCourse";
 
 function App() {
   return (
@@ -22,6 +24,9 @@ function App() {
         <Route path="/course" element={<Courses />} />
         <Route path="/user-dashboard" element={<User />} />
         <Route path="/admin-dashboard" element={<Admin />} />
+        <Route path="/admin-creations" element={<AdminCourses />} />
+        <Route path="/Create-Course" element={<CreateCourse />} />
+      
       </Routes>
     </Router>
   );

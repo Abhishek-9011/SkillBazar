@@ -23,8 +23,9 @@ function Sidebar() {
   const menuItems = isAdmin
     ? [
         { label: "Home", iconClass: "home-icon", path: "/" },
+        { label: "Create Course", iconClass: "home-icon", path: "/Create-Course" },
         { label: "All Courses", iconClass: "about-icon", path: "/course" },
-        { label: "Your Creations", iconClass: "services-icon", path: "/creations" },
+        { label: "Your Creations", iconClass: "services-icon", path: "/admin-creations" },
       ]
     : [
         { label: "Home", iconClass: "home-icon", path: "/" },
