@@ -16,7 +16,6 @@ courseRouter.post("/purchase", userMiddleware, async function (req, res) {
 courseRouter.get("/preview",async function (req, res) {
   const course = await courseModel.find({});
   console.log(course);
-  
   res.json({
     course
   });

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import {jwtDecode} from "jwt-decode"; // Fixed import
+import {jwtDecode} from "jwt-decode";
 import "./sidebar.css";
 import { Link } from "react-router-dom";
 
@@ -24,6 +24,7 @@ function Sidebar() {
     ? [
         { label: "Home", iconClass: "home-icon", path: "/" },
         { label: "Create Course", iconClass: "home-icon", path: "/Create-Course" },
+        { label: "Update Course", iconClass: "home-icon", path: "/update-Course" },
         { label: "All Courses", iconClass: "about-icon", path: "/course" },
         { label: "Your Creations", iconClass: "services-icon", path: "/admin-creations" },
       ]
@@ -40,7 +41,7 @@ function Sidebar() {
         <ul className="sidebar-menu">
           {menuItems.map((item, index) => (
             <li className="menu-item" key={index}>
-              <Link to={item.path} className="menu-link">
+              <Link style={{color:"white"}}      to={item.path} className="menu-link">
                 <i className={`icon ${item.iconClass}`}></i>
                 {item.label}
               </Link>

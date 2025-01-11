@@ -68,3 +68,11 @@ button:focus {
 .userlogo{
   height: 55px;
 }
+.logout{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  font-size: 10px;
+  text-align: center;
+}
